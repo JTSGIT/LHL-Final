@@ -1,7 +1,7 @@
 # Wine Quality Prediction Using Machine Learning
 
 ## Overview
-This project uses machine learning to predict wine quality from physicochemical properties, focusing on datasets of red and white wines. The analysis employs XGBoost and Random Forest models to classify and predict wine quality, providing actionable insights for improving wine production and marketing strategies.
+This project applies various machine learning models to predict wine quality based on physicochemical properties from two datasets: red wine and white wine. The models used include XGBoost and Random Forest for both classification and regression tasks. The insights gained from these analyses aim to assist vintners in enhancing wine production and marketers in improving sales strategies.
 
 ## Datasets
 The datasets include detailed measurements of wine properties:
@@ -19,8 +19,13 @@ Attributes in each dataset include fixed acidity, volatile acidity, citric acid,
 - `randomforest.ipynb`: Random Forest analysis for red wine.
 - `regression.ipynb`: Regression models for predicting wine quality.
 
-## Insights from Machine Learning Models
+## Insights
 - **XGBoost Model:** Revealed the significance of alcohol level, sulphates, and acidity in predicting wine quality. 
 - **Random Forest Red Wine:** Showed strong predictive capabilities especially for medium and high-quality wines, with alcohol and sulphates as the most influential features.
 - **Random Forest White Wine:** Highlighted the importance of volatile acidity and sulfur dioxide levels, providing insights into quality factors specific to white wine.
 - ****Regression Analysis**:** Explored the relationship between the continuous variables of the datasets and wine quality, providing a different perspective on prediction beyond categorical quality levels.
+
+### Source and Citation
+The datasets were sourced from the UCI Machine Learning Repository:
+- **Citation**: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. "Modeling wine preferences by data mining from physicochemical properties." In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+- **Dataset URL**: [Wine Quality Dataset](https://archive.ics.uci.edu/dataset/186/wine+quality)
